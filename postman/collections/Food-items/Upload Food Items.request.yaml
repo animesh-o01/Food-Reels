@@ -1,0 +1,24 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/food/
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: name
+      value: test Food Item
+      description: ""
+      disabled: false
+    - type: text
+      key: Description
+      value: testing Food Item
+      description: ""
+      disabled: false
+    - type: file
+      key: video
+      src:
+        - /C:/Users/0294TU/Downloads/8479197-hd_1920_1080_25fps.mp4
+      description: ""
+      disabled: false
+order: 1000
